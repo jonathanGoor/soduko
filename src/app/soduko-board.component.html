@@ -1,0 +1,13 @@
+<div class="soduko-board">
+  <table class="board">
+
+    <tbody>
+      <tr *ngFor="'let row of board">
+        <td class="cell" *ngFor="let cell of row">
+          {{cell.text}}
+        </td>
+      </tr>
+    </tbody>
+    </table>
+  </table>
+</div>
